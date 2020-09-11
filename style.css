@@ -12,8 +12,10 @@
 }
 
 body {
-	background-color: #252934;
-	color: white;
+	/* background-color: #3c4b75; */
+	background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 49%, rgba(126,203,244,1) 90.2% );
+	/* background-color: #a6d7f1 */
+	color: rgb(90, 92, 216);
 }
 
 /* ------------- TRANSITIONS AND SHADOWS ------------- */
@@ -27,15 +29,15 @@ a, a:visited, a:hover, .box .box-container:hover, .box .box-container {
 }
 
 .box .box-container:hover {
-	-webkit-box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.75);
-	-moz-box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.75);
-	box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0 0 15px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0 0 15px -5px rgba(0,0,0,0.75);
+	box-shadow: 0 0 15px -5px rgba(0,0,0,0.75);
 }
 
 .container form, .box .box-container {
-	-webkit-box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.25);
-	-moz-box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.25);
-	box-shadow: 4px 4px 15px -5px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 0 15px -5px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 0 15px -5px rgba(0,0,0,0.25);
+	box-shadow: 0 0 15px -5px rgba(0,0,0,0.25);
 }
 
 /* ------------- CONTAINER STYLING ------------- */ 
@@ -56,7 +58,7 @@ a, a:visited {
 }
 
 a:hover {
-	color: white;
+	color: rgb(87, 86, 150);
 }
 
 a, a:visited, a:hover {
@@ -86,7 +88,7 @@ a, a:visited, a:hover {
 }
 
 .box .box-container {
-	background-color: #2E3441;
+	background-color: #dfe8ff;
 	width: 200px;
 	height: 220px;
 	float: left;
@@ -107,7 +109,7 @@ a, a:visited, a:hover {
 /* ------------- SEARCH STYLING ------------- */ 
 
 .container form {
-	background-color: #2E3441;
+	background-color: #c8daff;
 	border-radius: 5px;
 	width: 450px;
 	margin-bottom: 80px;
@@ -124,7 +126,7 @@ a, a:visited, a:hover {
 .container form .search-field {
 	width: 89%;
 	padding-left: 15px;
-	color: white;
+	color: rgb(77, 77, 78);
 	font-size: 30px;
 	font-family: 'test';
 	bottom: -1px;
@@ -142,7 +144,7 @@ a, a:visited, a:hover {
 .container form .search-submit::before {
 	background-image:url(google1.svg);
 	background-position:center center;
-	fill: white;
+	fill: rgb(85, 85, 85);
 	content:"";
 	width:23px;
 	height:23px;
