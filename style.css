@@ -15,9 +15,14 @@ body {
 	/* background-color: #3c4b75; */
 	background-image: radial-gradient( circle 465px at -15.1% -25%,  rgba(17,130,193,1) 0%, rgba(67,166,238,1) 49%, rgba(126,203,244,1) 90.2% );
 	/* background-color: #a6d7f1 */
-	color: rgb(90, 92, 216);
+	color: rgb(255, 255, 255);
+	
 }
 
+
+#time {
+	text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
 /* ------------- TRANSITIONS AND SHADOWS ------------- */
 
 a, a:visited, a:hover, .box .box-container:hover, .box .box-container {
@@ -104,6 +109,8 @@ a, a:visited, a:hover {
 	font-family: 'test';
 	font-size: 33px;
 	text-align: left;
+	color: #4b4b4d;
+	text-shadow: none;
 }
 
 /* ------------- SEARCH STYLING ------------- */ 
